@@ -9,4 +9,4 @@
 
   - name: Hashicorp lookup
     debug:
-     msg: "{{ lookup('hashi_vault', 'secret=secret/data/hello token=s.2IaLRxRGXfrQjlKrZRc0mw00 url=http://ec2-3-1-221-244.ap-southeast-1.compute.amazonaws.com:8200')}}"
+     msg: "{{ lookup('hashi_vault', 'secret=secret/hello token=s.2IaLRxRGXfrQjlKrZRc0mw00 url=http://ec2-3-1-221-244.ap-southeast-1.compute.amazonaws.com:8200')}}"
